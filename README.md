@@ -40,11 +40,13 @@ DAYS_TO_STORE=30                                 # Хранить бэкапы N
 ```
 
 ## 📂 Структура
-/backups/storage/  
-└── 24.01.15__14:30:22/  
-    ├── all.sql.tbz          # Дамп всех баз данных  
-    ├── var_www.tbz          # Архивированный /var/www  
-    └── etc_nginx.tbz        # Архивированный /etc/nginx  
+```
+/backups/storage/
+└── 24.01.15__14:30:22/
+    ├── all.sql.tbz          # Дамп всех баз данных
+    ├── var_www.tbz          # Архивированный /var/www
+    └── etc_nginx.tbz        # Архивированный /etc/nginx
+```
 
 ---
 
