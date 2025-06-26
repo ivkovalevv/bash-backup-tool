@@ -28,11 +28,11 @@ chmod +x backup_script.sh
 ```
 - Настройте параметры в начале скрипта:  
 ```
-BACKUP_DATA_DIR=/path/to/backups  # Куда сохранять бэкапы  
+BACKUP_DATA_DIR=/path/to/backups                 # Куда сохранять бэкапы  
 DIRECTORIES="/path/to/backup1 /path/to/backup2"  # Что бэкапировать  
-DBUSER=root                       # Пользователь MySQL  
-PASS="ваш_пароль"                 # Пароль MySQL (замените!)  
-DAYS_TO_STORE=30                  # Хранить бэкапы N дней  
+DBUSER=root                                      # Пользователь MySQL  
+PASS="ваш_пароль"                                # Пароль MySQL (замените!)  
+DAYS_TO_STORE=30                                 # Хранить бэкапы N дней  
 ```
 - Запустите вручную для проверки:  
 ```
